@@ -4,4 +4,5 @@ public enum ReplyType {
     FORMAL,
     FRIENDLY,
     CONCISE
+
 }
