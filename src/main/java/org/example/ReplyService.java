@@ -68,7 +68,7 @@ public class ReplyService {
             } else if (type.equals(ReplyType.FRIENDLY)) {
                 return "See you later! \uD83D\uDC4B";
             }
-            return;
+            return "";
         }
 
         if (message2.equals("thanks")) {
