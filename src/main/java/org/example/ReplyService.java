@@ -73,32 +73,33 @@ public class ReplyService {
             } else if (type.equals(ReplyType.CONCISE)) {
                 return "You’re welcome.";
             }
+        }
 
-            if (message2.equals("what is your name")) {
-                if (type.equals(ReplyType.FORMAL)) {
-                    return "I am your virtual assistant.";
-                } else if (type.equals(ReplyType.FRIENDLY)) {
-                    return "I’m your helper bot \uD83E\uDD16";
-                } else if (type.equals(ReplyType.CONCISE)) {
-                    return "I’m your assistant.";
-                }
+        if (message2.equals("what is your name")) {
+            if (type.equals(ReplyType.FORMAL)) {
+                return "I am your virtual assistant.";
+            } else if (type.equals(ReplyType.FRIENDLY)) {
+                return "I’m your helper bot \uD83E\uDD16";
+            } else if (type.equals(ReplyType.CONCISE)) {
+                return "I’m your assistant.";
             }
-            else {
-                if (type.equals(ReplyType.FORMAL)) {
-                    return "Could you clarify your request?";
-                }
-                else if (type.equals(ReplyType.FRIENDLY)) {
-                    return "Could you tell me more?";
-                }
-                else if (type.equals(ReplyType.CONCISE)) {
-                    return "Please clarify.";
-                }
+        }
+        else {
+            if (type.equals(ReplyType.FORMAL)) {
+                return "Could you clarify your request?";
             }
+            else if (type.equals(ReplyType.FRIENDLY)) {
+                return "Could you tell me more?";
+            }
+            else if (type.equals(ReplyType.CONCISE)) {
+                return "Please clarify.";
+            }
+        }
 
 
 //        throw new UnsupportedOperationException("Not implemented yet");
 
-        }
-        return message2;
     }
-    }
+
+}
+
