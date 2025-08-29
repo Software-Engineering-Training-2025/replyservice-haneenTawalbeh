@@ -18,7 +18,7 @@ public class ReplyService {
             } else if (type.equals(ReplyType.CONCISE)) {
                 return "Hello. How can I help?";
             }
-            return ;
+            return "m";
         }
 
         if (message2.equals("hello")) {
@@ -29,7 +29,7 @@ public class ReplyService {
             } else if (type.equals(ReplyType.CONCISE)) {
                 return "Hello. How can I help?";
             }
-            return ;
+            return "m";
         }
         if (message2.equals("how are you")) {
             if (type.equals(ReplyType.FORMAL)) {
@@ -39,7 +39,7 @@ public class ReplyService {
             } else if (type.equals(ReplyType.CONCISE)) {
                 return "I’m good. How can I help?";
             }
-            return ;
+            return "m";
         }
         if (message2.equals("i need help")) {
             if (type.equals(ReplyType.FORMAL)) {
@@ -49,7 +49,7 @@ public class ReplyService {
             } else if (type.equals(ReplyType.CONCISE)) {
                 return "Share details; I’ll help.";
             }
-            return;
+            return "m";
         }
 
         if (message2.equals("can you help me with my account")) {
@@ -60,7 +60,7 @@ public class ReplyService {
             } else if (type.equals(ReplyType.CONCISE)) {
                 return "Describe the account issue…";
             }
-            return ;
+            return "m";
         }
         if (message2.equals("bye")) {
             if (type.equals(ReplyType.FORMAL) || type.equals(ReplyType.CONCISE)) {
@@ -68,7 +68,7 @@ public class ReplyService {
             } else if (type.equals(ReplyType.FRIENDLY)) {
                 return "See you later! \uD83D\uDC4B";
             }
-            return "";
+            return "m";
         }
 
         if (message2.equals("thanks")) {
@@ -79,7 +79,7 @@ public class ReplyService {
             } else if (type.equals(ReplyType.CONCISE)) {
                 return "You’re welcome.";
             }
-            return;
+            return "m";
         }
 
         if (message2.equals("what is your name")) {
@@ -90,7 +90,7 @@ public class ReplyService {
             } else if (type.equals(ReplyType.CONCISE)) {
                 return "I’m your assistant.";
             }
-            return;
+            return "m";
         }
         else {
             if (type.equals(ReplyType.FORMAL)) {
@@ -102,7 +102,7 @@ public class ReplyService {
             else if (type.equals(ReplyType.CONCISE)) {
                 return "Please clarify.";
             }
-            return;
+            return "m";
         }
 
 
